@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+android:id="@+id/widget26"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<Button
+android:id="@+id/buttonfotos1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Portada"
+android:textSize="12sp"
+android:layout_x="20px"
+android:layout_y="12px"
+android:onClick="verportada"
+>
+</Button>
+<Button
+android:id="@+id/buttonfotos2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Fotos"
+android:textSize="12sp"
+android:layout_x="90px"
+android:layout_y="12px"
+android:onClick="verfotos"
+>
+</Button>
+<Button
+android:id="@+id/buttonfotos3"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Fecha"
+android:textSize="12sp"
+android:layout_x="160px"
+android:layout_y="12px"
+android:onClick="vercalendario"
+>
+</Button>
+<Button
+android:id="@+id/buttonfotos4"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Articulo"
+android:textSize="12sp"
+android:layout_x="230px"
+android:layout_y="12px"
+android:onClick="verarticulo"
+>
+</Button>
+<TextView
+android:id="@+id/textfotos"
+android:layout_width="250px"
+android:layout_height="27px"
+android:text="Galería de Fotos:"
+android:textSize="16sp"
+android:layout_x="10px"
+android:layout_y="92px"
+>
+</TextView>
+
+<GridView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/gridview"
+    android:columnWidth="90dp"
+    android:numColumns="auto_fit"
+    android:verticalSpacing="10dp"
+    android:horizontalSpacing="10dp"
+    android:stretchMode="columnWidth"
+    android:gravity="center"
+    android:layout_width="300px"
+android:layout_height="600px"
+android:layout_x="10px"
+android:layout_y="142px"
+/>
+</AbsoluteLayout>
